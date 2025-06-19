@@ -1,4 +1,4 @@
-<h1>🛒 Full Stack E-Commerce Website</h1>
+<h1>Full Stack E-Commerce Website</h1>
 
   <p>
     This is a full-stack e-commerce web application built using the <strong>MERN stack</strong> 
@@ -49,7 +49,7 @@
   <li>Fully responsive UI for mobile and desktop</li>
 </ul>
 
-<h3>🛠 Admin Features</h3>
+<h3>Admin Features</h3>
 <ul>
   <li>Admin Login and Protected Routes</li>
   <li>Add new products with image upload (Cloudinary)</li>
