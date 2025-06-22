@@ -27,7 +27,7 @@ const addToCart = async (req, res) => {
         res.json({ success: true, message: "Added to cart" });
     } catch (error) {
         console.log(error)
-        res.josn({ success: false, message: error.message });
+        res.json({ success: false, message: error.message });
     }
 }
 
@@ -48,7 +48,7 @@ const updateCart = async (req, res) => {
 
     } catch (error) {
         console.log(error)
-        res.josn({ success: false, message: error.message });
+        res.json({ success: false, message: error.message });
     }
 }
 
@@ -65,7 +65,7 @@ const getUserCart = async (req, res) => {
         res.json({ success: true, cartData });
     } catch (error) {
         console.log(error)
-        res.josn({ success: false, message: error.message });
+        res.json({ success: false, message: error.message });
     }
 }
 
