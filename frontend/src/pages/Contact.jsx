@@ -15,11 +15,16 @@ const Contact = () => {
                 <img className='w-full md:max-w-[480px]' src={assets.contact_img} alt="" />
 
                 <div className='flex flex-col justify-center items-start gap-6'>
-                    <p className='font-semibold text-xl text-gray-600'>Our Stroe</p>
-                    <p className='text-gray-500'>54900 will <br />street, city</p>
-                    <p className='text-gray-500'>Te;: +00221392  <br /> Email: admin@shopSphere.com</p>
+                    <p className='font-semibold text-xl text-gray-600'>Our Store</p>
+                    <p className='text-gray-500'>ShopSphere HQ <br />54900 Will Street <br /> Metro City, ZIP 10294</p>
+                    <p className='text-gray-500'>Tell: +91 1102236548  <br /> Email: admin@ShopSphere.com</p>
                     <p className='font-semibold text-xl text-gray-600'>Careers at Shop Sphere</p>
-                    <p className='text-gray-500'>Learn more about our team and job openings</p>
+                    <p className='text-gray-500'>
+                        Passionate about e-commerce, design, or tech?
+                        <br />
+                        We’re always looking for talented individuals to join our growing team.
+                        Check out current openings and learn more about life at ShopSphere
+                    </p>
                     <button className='border border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all duration-500'>Explore Jobs</button>
                 </div>
             </div>
