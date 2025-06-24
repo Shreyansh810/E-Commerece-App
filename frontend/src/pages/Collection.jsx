@@ -12,7 +12,7 @@ const Collection = () => {
 
     const [category, setCategory] = useState([]);
     const [subCategory, setSubCategory] = useState([]);
-    const [sortType, setSortType] = useState('relavent');
+    const [sortType, setSortType] = useState('Relevant');
 
     const toggleCategory = (e) => {
         if (category.includes(e.target.value)) {
@@ -52,11 +52,11 @@ const Collection = () => {
         let fpCopy = filterProducts.slice();
 
         switch (sortType) {
-            case 'low-high':
+            case 'Low-High':
                 setFilterProducts(fpCopy.sort((a, b) => (a.price - b.price)));
                 break;
 
-            case 'high-low':
+            case 'High-Low':
                 setFilterProducts(fpCopy.sort((a, b) => (b.price - a.price)));
                 break;
 
@@ -126,9 +126,9 @@ const Collection = () => {
                     <Title text1={'All'} text2={'Collections'} />
 
                     <select onChange={(e) => setSortType(e.target.value)} className='border-2 border-gray-300 text-sm px-2'>
-                        <option value="relavent">Sort by: relavent</option>
-                        <option value="low-high">Sort by: low-high</option>
-                        <option value="high-low">Sort by: high-low</option>
+                        <option value="Relevant">Sort by: Relevant</option>
+                        <option value="Low-High">Sort by: Low-High</option>
+                        <option value="High-Low">Sort by: High-Low</option>
                     </select>
                 </div>
 

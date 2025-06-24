@@ -18,7 +18,7 @@ const LatestCollection = () => {
             <div className='text-center py-8 text-3xl'>
                 <Title text1={'Latest'} text2={'Collections'} />
                 <p className='w-3/4 m-auto text-xs sm:text-sm md:text-base text-gray-600'>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum optio voluptas deleniti! Autem quos, dolores eius voluptates blanditiis error fugit?
+                    Step into style with our newest arrivals! From trendy fashion picks to must-have essentials, our latest collection brings you the best of the season. Curated with care and crafted for comfort, explore what’s new and elevate your everyday look with ShopSphere.
                 </p>
             </div>
 
